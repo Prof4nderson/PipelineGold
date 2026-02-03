@@ -1,0 +1,4 @@
+codigo_cliente,total_faturado,total_pago,total_credito_acumulado,maior_atraso
+101,1500.0,1600.0,100.0,8
+103,800.0,800.0,0.0,0
+102,2300.5,0.0,0.0,0

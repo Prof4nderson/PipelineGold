@@ -1,0 +1,4 @@
+codigo_cliente,numero_fatura,valor,data_vencimento
+101,FA-001,1500.00,2024-05-10
+102,FA-002,2300.50,2024-05-12
+103,FA-003,800.00,2024-05-15
