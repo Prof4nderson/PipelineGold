@@ -20,6 +20,16 @@
       "args": [],
       "jvmOptions": [],
       "env": {}
+    },
+    {
+      "type": "scala",
+      "request": "launch",
+      "name": "PipelineGoldCompleto",
+      "mainClass": "PipelineGoldCompleto",
+      "buildTarget": "file:/C:/Users/Teacher/Desktop/scala/?id=scala",
+      "args": [],
+      "jvmOptions": [],
+      "env": {}
     }
   ]
 }

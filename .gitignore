@@ -1,0 +1,17 @@
+# Spark/Hadoop
+/target/
+/project/target/
+/project/project/
+.bsp/
+.metals/
+out/
+output/
+
+# Logs e Temps
+*.log
+checkpoint/
+metastore_db/
+derby.log
+
+# VS Code
+.vscode/

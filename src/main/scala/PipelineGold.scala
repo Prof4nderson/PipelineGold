@@ -34,7 +34,7 @@ object PipelineGoldCompleto {
       field.set(null, false)
     } catch { case _: Exception => println("Aviso: Bypass NativeIO não aplicado.") }
 
-    // --- 2. INICIALIZAÇÃO DA SESSÃO
+    // --- 2. INICIALIZAÇÃO DA SESSÃO SPARK
     val spark = SparkSession.builder()
       .appName("PipelineGoldAnderson")
       .master("local[*]")
@@ -55,26 +55,33 @@ object PipelineGoldCompleto {
       val dfVendas = spark.read
         .option("header", "true")
         .option("inferSchema", "true")
-        .csv("data/vendas.csv")
+        .csv("data/arquivo_vendas.csv")
 
       // Lendo Pagamentos (Excel) - Requer a lib spark-excel no build.sbt
       val dfPagamentos = spark.read
         .format("com.crealytics.spark.excel")
         .option("header", "true")
         .option("inferSchema", "true")
-        .load("data/pagamentos.xlsx")
+        .load("data/planilha_pagamentos.xlsx")
 
-      // --- 4. TRATAMENTO E REGRAS DE NEGÓCIO 
+    // --- 4. TRATAMENTO E REGRAS DE NEGÓCIO (Com tratamento de Null garantido) ---
       
-      val dfFinal = dfVendas
-        .join(dfPagamentos, Seq("codigo_cliente"), "left")
-        // Tratando os nulos onde não houve pagamento
-        .na.fill(0, Seq("total_pago")) 
-        .withColumn("total_faturado", round($"total_faturado", 2))
-        .withColumn("total_pago", round($"total_pago", 2))
-        // Criando um indicador visual de status
-        .withColumn("alerta", when($"total_pago" < $"total_faturado", "🚩 PENDENTE").otherwise("✅ PAGO"))
+      // 1. Renomeamos para evitar o erro de duplicidade que deu antes
+      val dfPagamentosLimpo = dfPagamentos.withColumnRenamed("numero_fatura", "fatura_pagamento")
 
+      val dfFinal = dfVendas
+        .join(dfPagamentosLimpo, Seq("cliente"), "left")
+        
+        // 2. O PULO DO GATO: Tratamos o nulo LOGO APÓS o join
+        // Isso garante que o cliente 102 deixe de ser NULL e passe a ser 0.0
+        .na.fill(0, Seq("valor_pago")) 
+        
+        // 3. Agora sim, arredondamos e fazemos o cálculo sem medo de nulos
+        .withColumn("valor", round($"valor", 2))
+        .withColumn("valor_pago", round($"valor_pago", 2))
+        
+        // 4. Lógica do alerta: se o valor_pago (que agora é 0 e não null) for menor que o valor...
+        .withColumn("alerta", when($"valor_pago" < $"valor", "PENDENTE").otherwise("PAGO"))
       // Exibindo o resultado para validação rápida
       println("--- Relatório Financeiro Consolidado ---")
       dfFinal.show()

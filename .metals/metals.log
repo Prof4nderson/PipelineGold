@@ -1006,3 +1006,181 @@ fev. 03, 2026 8:17:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 ADVERTÊNCIA: Unmatched cancel notification for request id 3676
 2026.02.03 20:18:29 INFO  compiling scala (1 scala source)
 2026.02.03 20:18:32 INFO  time: compiled scala in 2.77s
+2026.02.03 20:44:42 INFO  compiling scala (1 scala source)
+2026.02.03 20:44:42 WARN  Could not load snapshot text for C:\Users\Teacher\Desktop\scala\src\main\scala\PipelineGold.scala
+2026.02.03 20:44:44 INFO  time: compiled scala in 2.56s
+2026.02.03 20:44:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-server.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2026.02.03 20:44:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-client.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2026.02.03 20:44:45 INFO  Starting debug proxy for [PipelineGold]
+2026.02.03 20:44:44 INFO  Loaded expression compiler in 1 millisecond
+2026.02.03 20:44:53 INFO  Loaded all sources and classes in 8 seconds
+2026.02.03 20:44:53 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2026.02.03 20:44:53 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:54416 .
+2026.02.03 20:44:53 INFO  Attaching to debuggee VM succeeded.
+2026.02.03 20:44:54 INFO  Canceling debug proxy for [PipelineGold]
+2026.02.03 20:44:53 INFO  Closing debug server tcp://0.0.0.0:54413
+2026.02.03 20:45:01 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-server.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2026.02.03 20:45:01 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-client.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2026.02.03 20:45:01 INFO  Starting debug proxy for [PipelineGold]
+2026.02.03 20:45:01 INFO  Loaded expression compiler in 1 millisecond
+2026.02.03 20:45:09 INFO  Loaded all sources and classes in 7 seconds
+2026.02.03 20:45:09 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2026.02.03 20:45:09 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:54422 .
+2026.02.03 20:45:09 INFO  Attaching to debuggee VM succeeded.
+2026.02.03 20:45:10 INFO  Canceling debug proxy for [PipelineGold]
+2026.02.03 20:45:09 INFO  Closing debug server tcp://0.0.0.0:54419
+fev. 03, 2026 8:45:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTrace
+2026.02.03 20:46:34 INFO  Shutting down server
+2026.02.03 20:46:34 INFO  Memory monitor stopped
+2026.02.03 20:46:34 INFO  shutting down Metals
+2026.02.03 20:46:34 INFO  Shut down connection with build server.
+2026.02.03 20:46:34 INFO  Shut down connection with build server.
+2026.02.03 20:46:34 INFO  Exiting server
+2026.02.03 20:46:34 WARN  Error requesting Scala script import
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.02.03 20:46:48 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\Teacher\Desktop\scala' for client Visual Studio Code 1.108.2.
+2026.02.03 20:46:48 INFO  Memory monitor started
+2026.02.03 20:46:50 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.03 20:46:50 INFO  no build target found for C:\Users\Teacher\Desktop\scala\src\main\scala\PipelineGold.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.03 20:46:53 INFO  no build target found for C:\Users\Teacher\Desktop\scala\src\main\scala\PipelineGold.scala. Using presentation compiler with project's scala-library version: 3.3.7
+fev. 03, 2026 8:46:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 2
+2026.02.03 20:46:53 INFO  no build target found for C:\Users\Teacher\Desktop\scala\src\main\scala\PipelineGold.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.03 20:46:53 INFO  no build target found for C:\Users\Teacher\Desktop\scala\src\main\scala\PipelineGold.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.03 20:46:53 INFO  no build target found for C:\Users\Teacher\Desktop\scala\src\main\scala\PipelineGold.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.03 20:46:53 INFO  no build target found for C:\Users\Teacher\Desktop\scala\src\main\scala\PipelineGold.scala. Using presentation compiler with project's scala-library version: 3.3.7
+fev. 03, 2026 8:46:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 7
+2026.02.03 20:46:53 INFO  no build target found for C:\Users\Teacher\Desktop\scala\src\main\scala\PipelineGold.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.03 20:46:53 INFO  Attempting to connect to the build server...
+2026.02.03 20:46:53 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: file:/C:/Users/Teacher/Desktop/scala/?id=scala, candidates:
+
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$5(BuildTargetClassesFinder.scala:126)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:129)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:500)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:898)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:878)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2026.02.03 20:46:53 INFO  Found a Bloop server running
+2026.02.03 20:46:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\bsp.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.02.03 20:46:53 INFO  Attempting to connect to the build server...
+2026.02.03 20:46:53 INFO  Found a Bloop server running
+2026.02.03 20:46:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\project\.metals\bsp.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.02.03 20:46:54 INFO  time: Connected to build server in 0.59s
+2026.02.03 20:46:54 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.03 20:46:54 INFO  time: Imported build in 0.29s
+2026.02.03 20:47:03 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.03 20:47:16 INFO  time: indexed workspace in 21s
+2026.02.03 20:47:34 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-server.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2026.02.03 20:47:34 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-client.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2026.02.03 20:47:34 INFO  Starting debug proxy for [PipelineGoldCompleto]
+2026.02.03 20:47:34 INFO  Loaded expression compiler in 0 milliseconds
+2026.02.03 20:47:42 INFO  Loaded all sources and classes in 8 seconds
+2026.02.03 20:47:42 INFO  Initialized Scala 3 decoder in 1 millisecond
+2026.02.03 20:47:42 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:63955 .
+2026.02.03 20:47:42 INFO  Attaching to debuggee VM succeeded.
+2026.02.03 20:47:55 INFO  Closing debug server tcp://0.0.0.0:63952
+2026.02.03 20:47:58 INFO  Canceling debug proxy for [PipelineGoldCompleto]
+fev. 03, 2026 8:51:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 53
+2026.02.03 20:51:44 INFO  compiling scala (1 scala source)
+2026.02.03 20:51:47 INFO  time: compiled scala in 2.53s
+2026.02.03 20:51:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-server.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2026.02.03 20:51:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-client.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2026.02.03 20:51:47 INFO  Starting debug proxy for [PipelineGoldCompleto]
+2026.02.03 20:51:47 INFO  Loaded expression compiler in 2 milliseconds
+2026.02.03 20:51:58 INFO  Loaded all sources and classes in 10 seconds
+2026.02.03 20:51:58 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2026.02.03 20:51:58 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:50625 .
+2026.02.03 20:51:58 INFO  Attaching to debuggee VM succeeded.
+2026.02.03 20:52:15 INFO  QDox parse error in /org/apache/hadoop/fs/RawLocalFileSystem.java (full report at: "C:\Users\Teacher\Desktop\scala\.metals\.reports\metals-full\2026-02-03\r_qdox-error_(scala)_16-03-28-997.md")
+2026.02.03 20:52:15 INFO  QDox parse error in /org/apache/hadoop/fs/RawLocalFileSystem.java (full report at: "C:\Users\Teacher\Desktop\scala\.metals\.reports\metals-full\2026-02-03\r_qdox-error_(scala)_16-03-28-997.md")
+2026.02.03 20:52:15 INFO  QDox parse error in /org/apache/hadoop/fs/RawLocalFileSystem.java (full report at: "C:\Users\Teacher\Desktop\scala\.metals\.reports\metals-full\2026-02-03\r_qdox-error_(scala)_16-03-28-997.md")
+2026.02.03 20:52:15 INFO  Created report: Optional[jar:file:///C:/Users/Teacher/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-client-api/3.3.4/hadoop-client-api-3.3.4-sources.jar!/org/apache/hadoop/fs/FilterFileSystem.java]
+2026.02.03 20:52:15 INFO  QDox parse error in /org/apache/hadoop/fs/FilterFileSystem.java (full report at: "C:\Users\Teacher\Desktop\scala\.metals\.reports\metals-full\2026-02-03\r_qdox-error_(scala)_20-52-15-661.md")
+2026.02.03 20:52:15 INFO  QDox parse error in /org/apache/hadoop/fs/ChecksumFileSystem.java (full report at: "C:\Users\Teacher\Desktop\scala\.metals\.reports\metals-full\2026-02-03\r_qdox-error_(scala)_16-03-29-234.md")
+2026.02.03 20:52:15 INFO  QDox parse error in /org/apache/hadoop/fs/ChecksumFileSystem.java (full report at: "C:\Users\Teacher\Desktop\scala\.metals\.reports\metals-full\2026-02-03\r_qdox-error_(scala)_16-03-29-234.md")
+2026.02.03 20:52:15 INFO  QDox parse error in /org/apache/hadoop/fs/ChecksumFileSystem.java (full report at: "C:\Users\Teacher\Desktop\scala\.metals\.reports\metals-full\2026-02-03\r_qdox-error_(scala)_16-03-29-234.md")
+2026.02.03 20:52:15 INFO  QDox parse error in /org/apache/hadoop/fs/ChecksumFileSystem.java (full report at: "C:\Users\Teacher\Desktop\scala\.metals\.reports\metals-full\2026-02-03\r_qdox-error_(scala)_16-03-29-234.md")
+2026.02.03 20:52:15 INFO  QDox parse error in /org/apache/hadoop/fs/FileSystem.java (full report at: "C:\Users\Teacher\Desktop\scala\.metals\.reports\metals-full\2026-02-03\r_qdox-error_(scala)_16-03-29-079.md")
+2026.02.03 20:52:16 INFO  Closing debug server tcp://0.0.0.0:50622
+2026.02.03 20:52:16 INFO  Canceling debug proxy for [PipelineGoldCompleto]
+2026.02.03 20:52:44 INFO  compiling scala (1 scala source)
+2026.02.03 20:52:44 WARN  Could not load snapshot text for C:\Users\Teacher\Desktop\scala\src\main\scala\PipelineGold.scala
+2026.02.03 20:52:46 INFO  time: compiled scala in 2.3s
+2026.02.03 20:52:46 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-server.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2026.02.03 20:52:46 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-client.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2026.02.03 20:52:46 INFO  Starting debug proxy for [PipelineGoldCompleto]
+2026.02.03 20:52:46 INFO  Loaded expression compiler in 1 millisecond
+2026.02.03 20:52:57 INFO  Loaded all sources and classes in 10 seconds
+2026.02.03 20:52:57 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2026.02.03 20:52:57 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:65072 .
+2026.02.03 20:52:57 INFO  Attaching to debuggee VM succeeded.
+2026.02.03 20:53:16 INFO  Closing debug server tcp://0.0.0.0:65069
+2026.02.03 20:53:18 INFO  Canceling debug proxy for [PipelineGoldCompleto]
+fev. 03, 2026 8:55:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 162
+2026.02.03 20:55:41 INFO  compiling scala (1 scala source)
+2026.02.03 20:55:43 INFO  time: compiled scala in 2.38s
+2026.02.03 20:55:44 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-server.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2026.02.03 20:55:44 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-client.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2026.02.03 20:55:44 INFO  Starting debug proxy for [PipelineGoldCompleto]
+2026.02.03 20:55:43 INFO  Loaded expression compiler in 1 millisecond
+2026.02.03 20:55:52 INFO  Loaded all sources and classes in 8 seconds
+2026.02.03 20:55:52 INFO  Initialized Scala 3 decoder in 1 millisecond
+2026.02.03 20:55:52 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:56676 .
+2026.02.03 20:55:52 INFO  Attaching to debuggee VM succeeded.
+fev. 03, 2026 8:56:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTrace
+2026.02.03 20:56:14 INFO  Canceling debug proxy for [PipelineGoldCompleto]
+2026.02.03 20:56:14 INFO  Closing debug server tcp://0.0.0.0:56673
+2026.02.03 20:57:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-server.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2026.02.03 20:57:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-client.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2026.02.03 20:57:00 INFO  Starting debug proxy for [PipelineGoldCompleto]
+2026.02.03 20:57:00 INFO  Loaded expression compiler in 1 millisecond
+2026.02.03 20:57:09 INFO  Loaded all sources and classes in 8 seconds
+2026.02.03 20:57:09 INFO  Initialized Scala 3 decoder in 1 millisecond
+2026.02.03 20:57:09 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:64678 .
+2026.02.03 20:57:09 INFO  Attaching to debuggee VM succeeded.
+2026.02.03 20:57:28 INFO  Canceling debug proxy for [PipelineGoldCompleto]
+2026.02.03 20:57:28 INFO  Closing debug server tcp://0.0.0.0:64675
+2026.02.03 20:58:27 INFO  compiling scala (1 scala source)
+2026.02.03 20:58:30 INFO  time: compiled scala in 2.47s
+2026.02.03 20:58:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-server.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2026.02.03 20:58:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Teacher\Desktop\scala\.metals\dap-client.trace.json or C:\Users\Teacher\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2026.02.03 20:58:30 INFO  Starting debug proxy for [PipelineGoldCompleto]
+2026.02.03 20:58:30 INFO  Loaded expression compiler in 1 millisecond
+2026.02.03 20:58:38 INFO  Loaded all sources and classes in 8 seconds
+2026.02.03 20:58:38 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2026.02.03 20:58:38 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:61851 .
+2026.02.03 20:58:38 INFO  Attaching to debuggee VM succeeded.
+2026.02.03 20:58:58 INFO  Canceling debug proxy for [PipelineGoldCompleto]
+2026.02.03 20:58:58 INFO  Closing debug server tcp://0.0.0.0:61848
+2026.02.03 21:00:04 INFO  Shutting down server
+2026.02.03 21:00:04 INFO  Memory monitor stopped
+2026.02.03 21:00:04 INFO  shutting down Metals
+2026.02.03 21:00:04 INFO  Shut down connection with build server.
+2026.02.03 21:00:04 INFO  Shut down connection with build server.
+2026.02.03 21:00:04 INFO  Exiting server
