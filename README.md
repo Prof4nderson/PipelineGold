@@ -1,5 +1,10 @@
 # 🚀 Spark Gold Pipeline - Scala & Windows Edition
 
+Este foi feito em linguagem Scala, usada nas clouds lideres de mercado. Eu tive a idéia de fazer quando me aventurei pelo Databricks, e nos primeiros testes consumiu todos os créditos antes de eu aprender a lidar com o ambiente e a linguagem. Então configurei um ambiente local, com o sbt (Scala Build Tool), para testar tudo local, sem precisar da plataforma, até o código ficar maduro e não gastar tokens sem necessidade.
+
+Ele consome dados de várias fontes, faz a integração, e entrega um dataset consolidado e estruturado.
+
+
 Este projeto demonstra a construção de um pipeline de dados (camada Gold) utilizando **Apache Spark** e **Scala**, superando os desafios comuns de configuração em ambiente Windows.
 
 ### ✅ O que este projeto resolve:
